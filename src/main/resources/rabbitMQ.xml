@@ -34,6 +34,6 @@
     </rabbit:listener-container>
 
     <!-- 消费者 -->
-    <bean id="foo" class="com.machi.spring.Recv" />
+    <bean id="foo" class="com.rabbit.api.spring.Recv" />
 
 </beans>
